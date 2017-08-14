@@ -1,480 +1,604 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Canadian Steakout</title>
-<meta name="description" content="">
-<meta name="author" content="">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Canadian Steakout</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Canadian Steakout" />
+	<meta name="keywords" content="Canadian Steakout" />
+	<meta name="author" content="Canadian Steakout" />
 
-<!-- Favicons
-    ================================================== -->
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-<!-- Bootstrap -->
-<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
 
-<!-- Stylesheet
-    ================================================== -->
-<link rel="stylesheet" type="text/css"  href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
-<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
-<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Merriweather:300,400italic,300italic,400,700italic' rel='stylesheet' type='text/css'>
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<!-- Datetimepicker -->
+	<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+	<!-- Flexslider -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-<!-- Navigation
-    ==========================================-->
-<nav id="menu" class="navbar navbar-default navbar-fixed-top">
-  <div class="container"> 
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand page-scroll" href="#page-top">Canadian Steakout</a> </div>
-    
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about" class="page-scroll">About</a></li>
-        <li><a href="#restaurant-menu" class="page-scroll">Menu</a></li>
-        <li><a href="#portfolio" class="page-scroll">Gallery</a></li>
-        <li><a href="#events" class="page-scroll">Events</a></li>
-        <li><a href="#call-reservation" class="page-scroll">Contact</a></li>
-      </ul>
-    </div>
-    <!-- /.navbar-collapse --> 
-  </div>
-</nav>
-<!-- Header -->
-<header id="header">
-  <div class="intro">
-    <div class="overlay">
-      <div class="container">
-        <div class="row">
-          <div class="intro-text">
-            <h1>Canadian Steakout</h1>
-            <p>Sports Bar & Grill</p>
-            <a href="#about" class="btn btn-custom btn-lg page-scroll">Discover Story</a> </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-<!-- About Section -->
-<div id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-md-6 ">
-        <div class="about-img"><img src="img/about.jpg" class="img-responsive" alt=""></div>
-      </div>
-      <div class="col-xs-12 col-md-6">
-        <div class="about-text">
-          <h2>Our Restaurant</h2>
-          <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-          <h3>Brief History</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Restaurant Menu Section -->
-<div id="restaurant-menu">
-  <div class="section-title text-center center">
-    <div class="overlay">
-      <h2>Menu</h2>
-      <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-6">
-        <div class="menu-section">
-          <h2 class="menu-section-title">Starters</h2>
-          <hr>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $35 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        <div class="menu-section">
-          <h2 class="menu-section-title">Main Course</h2>
-          <hr>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $45 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Delicious Dish </div>
-            <div class="menu-item-price"> $30 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-6">
-        <div class="menu-section">
-          <h2 class="menu-section-title">Specials</h2>
-          <hr>
-          <div class="menu-item">
-            <div class="menu-item-name"> Special Dish </div>
-            <div class="menu-item-price"> $45 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Special Dish </div>
-            <div class="menu-item-price"> $350 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Special Dish </div>
-            <div class="menu-item-price"> $130 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam.. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Special Dish </div>
-            <div class="menu-item-price"> $90 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        <div class="menu-section">
-          <h2 class="menu-section-title">Drinks</h2>
-          <hr>
-          <div class="menu-item">
-            <div class="menu-item-name"> Beer </div>
-            <div class="menu-item-price"> $5 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Juice </div>
-            <div class="menu-item-price"> $1 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Coffee </div>
-            <div class="menu-item-price"> $1 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-          <div class="menu-item">
-            <div class="menu-item-name"> Others </div>
-            <div class="menu-item-price"> $3 </div>
-            <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, duis sed dapibus leo nec ornare diam. </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Portfolio Section -->
-<div id="portfolio">
-  <div class="section-title text-center center">
-    <div class="overlay">
-      <h2>Gallery</h2>
-      <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="categories">
-        <ul class="cat">
-          <li>
-            <ol class="type">
-              <li><a href="#" data-filter="*" class="active">All</a></li>
-              <li><a href="#" data-filter=".maindish">Main Dish</a></li>
-              <li><a href="#" data-filter=".drinks">Drinks</a></li>
-              <li><a href="#" data-filter=".specials">Specials</a></li>
-            </ol>
-          </li>
-        </ul>
-        <div class="clearfix"></div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="portfolio-items">
-        <div class="col-sm-6 col-md-4 col-lg-4 maindish">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/01-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/01-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 specials">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 maindish">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/03-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 maindish">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 specials">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 drinks">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 drinks">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 maindish">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 specials">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/09-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 drinks">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/10-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/10-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 drinks">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/11-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/11-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-4 maindish">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/12-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
-              <div class="hover-text">
-                <h4>Dish Name</h4>
-              </div>
-              <img src="img/portfolio/12-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- events Section -->
-<div id="events" class="text-center">
-  <div class="overlay">
-    <div class="container">
-      <div class="col-md-10 col-md-offset-1 section-title">
-        <h2>Events</h2>
-        <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
-      </div>
-      <div id="row">
-        <div class="col-md-4 events">
-          <div class="thumbnail">
-            <div class="events-img"><img src="img/events/01.jpg" alt="..."></div>
-            <div class="caption">
-              <h3>Event 1</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 events">
-          <div class="thumbnail">
-            <div class="events-img"><img src="img/events/02.jpg" alt="..."></div>
-            <div class="caption">
-              <h3>Event 2</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 events">
-          <div class="thumbnail">
-            <div class="events-img"><img src="img/events/03.jpg" alt="..."></div>
-            <div class="caption">
-              <h3>Event 3</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Call Reservation Section -->
-<div id="call-reservation" class="text-center">
-  <div class="container">
-    <h2>Want to make a reservation? Call <strong>1-111-111-1111</strong></h2>
-  </div>
-</div>
-<!-- Contact Section -->
-<div id="contact" class="text-center">
-  <div class="container">
-    <div class="section-title text-center">
-      <h2>Contact Form</h2>
-      <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
-    </div>
-    <div class="col-md-10 col-md-offset-1">
-      <form name="sentMessage" id="contactForm" novalidate>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-        <div id="success"></div>
-        <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
-      </form>
-    </div>
-  </div>
-</div>
-<div id="footer">
-  <div class="container text-center">
-    <div class="col-md-4">
-      <h3>Address</h3>
-      <div class="contact-item">
-        <p>1234 Canada</p>
-        <p>Canada 12345</p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <h3>Opening Hours</h3>
-      <div class="contact-item">
-        <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>
-        <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <h3>Contact Info</h3>
-      <div class="contact-item">
-        <p>Phone: +1 123 123 1234</p>
-        <p>Email: icasbar@email.com</p>
-      </div>
-    </div>
-  </div>
-  <div class="container-fluid text-center copyrights">
-    <div class="col-md-8 col-md-offset-2">
-      <div class="social">
-        <ul>
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-        </ul>
-      </div>
-      <p>&copy; 2017 <a href="http://icasbar.com" rel="nofollow">Canadian Steakout</a></p>
-    </div>
-  </div>
-</div>
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
-<script type="text/javascript" src="js/bootstrap.js"></script> 
-<script type="text/javascript" src="js/SmoothScroll.js"></script> 
-<script type="text/javascript" src="js/nivo-lightbox.js"></script> 
-<script type="text/javascript" src="js/jquery.isotope.js"></script> 
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
-<script type="text/javascript" src="js/main.js"></script>
-</body>
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+
+	<div id="csteakout-container">
+		<div id="csteakout-home" class="js-fullheight" data-section="home">
+
+			<div class="flexslider">
+				
+				<div class="csteakout-overlay"></div>
+				<div class="csteakout-text">
+					<div class="container">
+						<div class="row">
+							<h2 class="to-animate">Canadian Steakout</h2>
+							<h2 class="to-animate">Sports bar and grill</h2>
+						</div>
+					</div>
+				</div>
+			  	<ul class="slides">
+			   	<li style="background-image: url(images/intro-bg.jpg);" data-stellar-background-ratio="0.5"></li>
+			   	<li style="background-image: url(images/intro2-bg.jpg);" data-stellar-background-ratio="0.5"></li>
+			   	<li style="background-image: url(images/intro3-bg.jpg);" data-stellar-background-ratio="0.5"></li>
+			  	</ul>
+
+			</div>
+			
+		</div>
+		
+		<div class="js-sticky">
+			<div class="csteakout-main-nav">
+				<div class="container-fluid">
+					<div class="csteakout-menu-1">
+						<a href="#" data-nav-section="home">Home</a>
+						<a href="#" data-nav-section="about">About</a>
+						<a href="#" data-nav-section="menu">Menu</a>
+					</div>
+					<div class="csteakout-logo">
+						<a href="#" data-nav-section="logo">LOGO</a>
+						<!--<img src="images/logo.png"></img>-->
+					</div>
+					<div class="csteakout-menu-2">
+						<a href="#" data-nav-section="features">Specials</a>
+						<a href="#" data-nav-section="events">Events</a>
+						<a href="#" data-nav-section="reservation">Reservation</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<div id="csteakout-about" data-section="about">
+			<div class="csteakout-2col csteakout-text" style="background-image: url(images/about-bg.png)">
+				<h2 class="heading to-animate">About Us</h2>
+				<p>Welcome to Canadian STEAKOUT, Sports Bar and Grill!
+					We are fiercely independent, priding ourselves on simple, honest, modern Canadian food. Obsessively, we seek the best, most mouth-watering ingredients we can find locally from farmers, growers and markets, fusing them together to create innovative flavors and fresh, sumptuous dishes; putting our passion for your palate on a plate!
+					Now, don’t let the words “sports bar” fool you! We are a family-friendly restaurant; the little ones are welcome to join us! Also, the food at Canadian Stakeout takes anything but your typical “on the line” food. The menu is so varied that you would have everything from Starters, Healthy Choices such as your greens and salads, our must tries – Asian Rice Bowls, Classic Pastas, Burgers and Fries, Fall-of-the-bone BBQ Ribs and, of course, the star of our show - STEAKS!
+					But, if you are looking for the best bar food and drinks in town, Canadian Steakout is definitely the place for you! The burgers are award-winning and we offer a variety of flavors for our wings! All of the beers, liquors and wines, either permanent or seasonal, are specially handpicked from local and regional sources to perfectly satisfy everyone!
+					Lastly, we pride ourselves with top notch customer service - we treat everyone as family! So, come and dine with us, if you want to have a good time and EXPERIENCE THE BEST!</p>
+			</div>
+			<div class="csteakout-2col csteakout-bg to-animate-2" style="background-image: url(images/canadian-bg.png)"></div>
+		</div>
+
+		<div id="csteakout-menus" data-section="menu">
+				<div class="container">
+					<div class="row text-center csteakout-heading row-padded">
+						<div class="col-md-8 col-md-offset-2">
+							<h2 class="heading to-animate">Food Menu</h2>
+						</div>
+					</div>
+					<div class="row row-padded">
+						<div class="col-md-6">
+							<div class="csteakout-food-menu to-animate-2">
+								<h2 class="csteakout-drinks">Drinks</h2>
+								<ul>
+									<li>
+										<div class="csteakout-food-desc">
+											<figure>
+												<img src="images/res_img_5.jpg" class="img-responsive" alt="">
+											</figure>
+											<div>
+												<h3>Juice</h3>
+												<p>Test image caption</p>
+											</div>
+										</div>
+										<div class="csteakout-food-pricing">
+											$17.50
+										</div>
+									</li>
+									<li>
+										<div class="csteakout-food-desc">
+											<figure>
+												<img src="images/res_img_6.jpg" class="img-responsive" alt="">
+											</figure>
+											<div>
+												<h3>Juice</h3>
+												<p>Test image caption</p>
+											</div>
+										</div>
+										<div class="csteakout-food-pricing">
+											$7.99
+										</div>
+									</li>
+									<li>
+										<div class="csteakout-food-desc">
+											<figure>
+												<img src="images/res_img_7.jpg" class="img-responsive" alt="">
+											</figure>
+											<div>
+												<h3>Drinks</h3>
+												<p>Test image caption</p>
+											</div>
+										</div>
+										<div class="csteakout-food-pricing">
+											$12.99
+										</div>
+									</li>
+									<li>
+										<div class="csteakout-food-desc">
+											<figure>
+												<img src="images/res_img_5.jpg" class="img-responsive" alt="">
+											</figure>
+											<div>
+												<h3>Drinks</h3>
+												<p>Test image caption</p>
+											</div>
+										</div>
+										<div class="csteakout-food-pricing">
+											$12.99
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="csteakout-food-menu to-animate-2">
+								<h2 class="csteakout-dishes">Steak</h2>
+								<ul>
+									<li>
+										<div class="csteakout-food-desc">
+											<figure>
+												<img src="images/res_img_3.jpg" class="img-responsive" alt="">
+											</figure>
+											<div>
+												<h3>Steak</h3>
+												<p>Test image caption</p>
+											</div>
+										</div>
+										<div class="csteakout-food-pricing">
+											$17.50
+										</div>
+									</li>
+									<li>
+										<div class="csteakout-food-desc">
+											<figure>
+												<img src="images/res_img_4.jpg" class="img-responsive" alt="">
+											</figure>
+											<div>
+												<h3>Chicken</h3>
+												<p>Test image caption</p>
+											</div>
+										</div>
+										<div class="csteakout-food-pricing">
+											$7.99
+										</div>
+									</li>
+									<li>
+										<div class="csteakout-food-desc">
+											<figure>
+												<img src="images/res_img_2.jpg" class="img-responsive" alt="">
+											</figure>
+											<div>
+												<h3>Sausages</h3>
+												<p>Test image caption</p>
+											</div>
+										</div>
+										<div class="csteakout-food-pricing">
+											$12.99
+										</div>
+									</li>
+									<li>
+										<div class="csteakout-food-desc">
+											<figure>
+												<img src="images/res_img_8.jpg" class="img-responsive" alt="">
+											</figure>
+											<div>
+												<h3>Beef</h3>
+												<p>Test image caption</p>
+											</div>
+										</div>
+										<div class="csteakout-food-pricing">
+											$12.99
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="csteakout-food-menu to-animate-2">
+								<h2 class="csteakout-drinks">Drinks</h2>
+								<ul>
+									<li>
+										<div class="csteakout-food-desc">
+											<figure>
+												<img src="images/res_img_5.jpg" class="img-responsive" alt="">
+											</figure>
+											<div>
+												<h3>Juice</h3>
+												<p>Test image caption</p>
+											</div>
+										</div>
+										<div class="csteakout-food-pricing">
+											$17.50
+										</div>
+									</li>
+									<li>
+										<div class="csteakout-food-desc">
+											<figure>
+												<img src="images/res_img_6.jpg" class="img-responsive" alt="">
+											</figure>
+											<div>
+												<h3>Juice</h3>
+												<p>Test image caption</p>
+											</div>
+										</div>
+										<div class="csteakout-food-pricing">
+											$7.99
+										</div>
+									</li>
+									<li>
+										<div class="csteakout-food-desc">
+											<figure>
+												<img src="images/res_img_7.jpg" class="img-responsive" alt="">
+											</figure>
+											<div>
+												<h3>Drinks</h3>
+												<p>Test image caption</p>
+											</div>
+										</div>
+										<div class="csteakout-food-pricing">
+											$12.99
+										</div>
+									</li>
+									<li>
+										<div class="csteakout-food-desc">
+											<figure>
+												<img src="images/res_img_5.jpg" class="img-responsive" alt="">
+											</figure>
+											<div>
+												<h3>Drinks</h3>
+												<p>Test image caption</p>
+											</div>
+										</div>
+										<div class="csteakout-food-pricing">
+											$12.99
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="csteakout-food-menu to-animate-2">
+								<h2 class="csteakout-dishes">Steak</h2>
+								<ul>
+									<li>
+										<div class="csteakout-food-desc">
+											<figure>
+												<img src="images/res_img_3.jpg" class="img-responsive" alt="">
+											</figure>
+											<div>
+												<h3>Beef</h3>
+												<p>Test image caption</p>
+											</div>
+										</div>
+										<div class="csteakout-food-pricing">
+											$17.50
+										</div>
+									</li>
+									<li>
+										<div class="csteakout-food-desc">
+											<figure>
+												<img src="images/res_img_4.jpg" class="img-responsive" alt="">
+											</figure>
+											<div>
+												<h3>Chicken</h3>
+												<p>Test image caption</p>
+											</div>
+										</div>
+										<div class="csteakout-food-pricing">
+											$7.99
+										</div>
+									</li>
+									<li>
+										<div class="csteakout-food-desc">
+											<figure>
+												<img src="images/res_img_2.jpg" class="img-responsive" alt="">
+											</figure>
+											<div>
+												<h3>Sausages</h3>
+												<p>Test image caption</p>
+											</div>
+										</div>
+										<div class="csteakout-food-pricing">
+											$12.99
+										</div>
+									</li>
+									<li>
+										<div class="csteakout-food-desc">
+											<figure>
+												<img src="images/res_img_8.jpg" class="img-responsive" alt="">
+											</figure>
+											<div>
+												<h3>Beef</h3>
+												<p>Test image caption</p>
+											</div>
+										</div>
+										<div class="csteakout-food-pricing">
+											$12.99
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-md-offset-4 text-center to-animate-2">
+							<p><a href="#" class="btn btn-primary btn-outline">More Food Menu</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		<div id="csteakout-featured" data-section="features">
+				<div class="container">
+					<div class="row text-center csteakout-heading row-padded">
+						<div class="col-md-8 col-md-offset-2">
+							<h2 class="heading to-animate">Featured Dishes</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="csteakout-grid">
+							<div class="csteakout-v-half to-animate-2">
+								<div class="csteakout-v-col-2 csteakout-bg-img" style="background-image: url(images/res_img_1.jpg)"></div>
+								<div class="csteakout-v-col-2 csteakout-text csteakout-special-1 arrow-left">
+									<h2>Steak</h2>
+									<span class="pricing">$7.50</span>
+									<p>caption...caption</p>
+								</div>
+							</div>
+							<div class="csteakout-v-half">
+								<div class="csteakout-h-row-2 to-animate-2">
+									<div class="csteakout-v-col-2 csteakout-bg-img" style="background-image: url(images/res_img_2.jpg)"></div>
+									<div class="csteakout-v-col-2 csteakout-text arrow-left">
+										<h2>Grilled Steak</h2>
+										<span class="pricing">$12.00</span>
+										<p>Test image caption</p>
+									</div>
+								</div>
+								<div class="csteakout-h-row-2 csteakout-reversed to-animate-2">
+									<div class="csteakout-v-col-2 csteakout-bg-img" style="background-image: url(images/res_img_8.jpg)"></div>
+									<div class="csteakout-v-col-2 csteakout-text arrow-right">
+										<h2>Steak</h2>
+										<span class="pricing">$4.50</span>
+										<p>Test image caption</p>
+									</div>
+								</div>
+							</div>
+	
+							<div class="csteakout-v-half">
+								<div class="csteakout-h-row-2 csteakout-reversed to-animate-2">
+									<div class="csteakout-v-col-2 csteakout-bg-img" style="background-image: url(images/res_img_7.jpg)"></div>
+									<div class="csteakout-v-col-2 csteakout-text arrow-right">
+										<h2>Steak</h2>
+										<span class="pricing">$4.99</span>
+										<p>Test image caption</p>
+									</div>
+								</div>
+								<div class="csteakout-h-row-2 to-animate-2">
+									<div class="csteakout-v-col-2 csteakout-bg-img" style="background-image: url(images/res_img_6.jpg)"></div>
+									<div class="csteakout-v-col-2 csteakout-text arrow-left">
+										<h2>Steak</h2>
+										<span class="pricing">$8.50</span>
+										<p>Test image caption</p>
+									</div>
+								</div>
+							</div>
+							<div class="csteakout-v-half to-animate-2">
+								<div class="csteakout-v-col-2 csteakout-bg-img" style="background-image: url(images/res_img_3.jpg)"></div>
+								<div class="csteakout-v-col-2 csteakout-text csteakout-special-1 arrow-left">
+									<h2>Steak</h2>
+									<span class="pricing">$12.99</span>
+									<p>caption...caption</p>
+								</div>
+							</div>
+	
+						</div>
+					</div>
+	
+				</div>
+			</div>
+
+		<div id="csteakout-events" data-section="events" style="background-image: url(images/canadian-bg.png);" data-stellar-background-ratio="0.5">
+			<div class="csteakout-overlay"></div>
+			<div class="container">
+				<div class="row text-center csteakout-heading row-padded">
+					<div class="col-md-8 col-md-offset-2 to-animate">
+						<h2 class="heading">Upcoming Events</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="csteakout-event to-animate-2">
+							<h3>Event 1</h3>
+							<span class="csteakout-event-meta">August 5th, 2017</span>
+							<p>caption...caption</p>
+							<p><a href="#" class="btn btn-primary btn-outline">Read More</a></p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="csteakout-event to-animate-2">
+							<h3>Event 2</h3>
+							<span class="csteakout-event-meta">August 5th, 2017</span>
+							<p>caption...caption</p>
+							<p><a href="#" class="btn btn-primary btn-outline">Read More</a></p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="csteakout-event to-animate-2">
+							<h3>Event 3</h3>
+							<span class="csteakout-event-meta">August 5th, 2017</span>
+							<p>caption...caption</p>
+							<p><a href="#" class="btn btn-primary btn-outline">Read More</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="csteakout-contact" data-section="reservation">
+			<div class="container">
+				<div class="row text-center csteakout-heading row-padded">
+					<div class="col-md-8 col-md-offset-2">
+						<h2 class="heading to-animate">Reserve a Table</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 to-animate-2">
+						<h3>Contact Info</h3>
+						<ul class="csteakout-contact-info">
+							<li class="csteakout-contact-address ">
+								<i class="icon-home"></i>
+								417 Gregg Ave. Hinton AB T7V 1N1 <br>
+							</li>
+							<li><i class="icon-phone"></i> 780-640-5443</li>
+							<li><i class="icon-envelope"></i>info@canadiansteakout.com</li>
+							<li><i class="icon-globe"></i> <a href="http://canadiansteakout.com" target="_blank">canadiansteakout.com</a></li>
+						</ul>
+					</div>
+					<div class="col-md-6 to-animate-2">
+						<h3>Reservation Form</h3>
+						<div class="form-group ">
+							<label for="name" class="sr-only">Name</label>
+							<input id="name" class="form-control" placeholder="Name" type="text">
+						</div>
+						<div class="form-group ">
+							<label for="email" class="sr-only">Email</label>
+							<input id="email" class="form-control" placeholder="Email" type="email">
+						</div>
+						<div class="form-group">
+							<label for="occation" class="sr-only">Occation</label>
+							<select class="form-control" id="occation">
+								<option>Select an Occation</option>
+							  <option>Wedding Ceremony</option>
+							  <option>Birthday</option>
+							  <option>Others</option>
+							</select>
+						</div>
+						<div class="form-group ">
+							<label for="date" class="sr-only">Date</label>
+							<input id="date" class="form-control" placeholder="Date &amp; Time" type="text">
+						</div>
+
+
+							
+						<div class="form-group ">
+							<label for="message" class="sr-only">Message</label>
+							<textarea name="" id="message" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
+						</div>
+						<div class="form-group ">
+							<input class="btn btn-primary" value="Send Message" type="submit">
+						</div>
+						</div>
+				</div>
+			</div>
+		</div>
+
+		
+	</div>
+
+	<div class="section group">
+			<div class="col span_1_of_3">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2378.995192875128!2d-117.59948268415525!3d53.397025879989656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x539c8dfb5e1ac9e1%3A0x3408f1133cfd3eb2!2s417+Gregg+Ave%2C+Hinton%2C+AB+T7V+1N1%2C+Canada!5e0!3m2!1sen!2sph!4v1502717148619" width='100%' height='600px' frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			<div class="col span_1_of_3">
+			<img src="images/findus.png" class="img-responsive" alt="">
+			</div>
+			<div class="col span_1_of_3">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2378.995192875128!2d-117.59948268415525!3d53.397025879989656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x539c8dfb5e1ac9e1%3A0x3408f1133cfd3eb2!2s417+Gregg+Ave%2C+Hinton%2C+AB+T7V+1N1%2C+Canada!5e0!3m2!1sen!2sph!4v1502717148619" width='100%' height='600px' frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+
+	<div id="csteakout-footer">
+			<div class="csteakout-2col csteakout-text" style="background-image: url(images/about-bg.png)">
+				<p>&copy; 2017 Candian Steakout.</p>
+			</div>
+			<div class="csteakout-2col csteakout-text" style="background-image: url(images/about-bg.png)">
+				<p align="right">TEL : 780-640-5443 | Email : canadiansteakout </p>
+			</div>
+		</div>
+
+
+	
+	
+	
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Bootstrap DateTimePicker -->
+	<script src="js/moment.js"></script>
+	<script src="js/bootstrap-datetimepicker.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script>
+		$(function () {
+	       $('#date').datetimepicker();
+	   });
+	</script>
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+
