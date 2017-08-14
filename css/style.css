@@ -24,7 +24,7 @@
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   @font-face {
     font-family: 'bebas-neue';
-    src: url("../css/fonts/BebasNeue-webfont.svg") format("svg");
+    src: url("../fonts/BebasNeue-webfont.svg") format("svg");
   }
 }
 
